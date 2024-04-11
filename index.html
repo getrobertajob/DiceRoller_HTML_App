@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="diceBox">
+        <div class="containerCenter">
+          <p id="resultBox" class="resultBox">0</p>
+          <div class="btnContainer">
+            <p>
+            <label for="resultBox" id="D4Label">D4</label>
+            <input type="number" value="0" id="D4" />
+            </p>
+            <p>
+            <label for="resultBox">D6</label>
+            <input type="number" value="0" id="D6" />
+          </p>
+          <p>
+            <label for="resultBox">D8</label>
+            <input type="number" value="0" id="D8" />
+          </p>
+          <p>
+            <label for="resultBox">D10</label>
+            <input type="number" value="0" id="D10" />
+          </p>
+          <p>
+            <label for="resultBox">D12</label>
+            <input type="number" value="0" id="D12" />
+          </p>
+          <p>
+            <label for="resultBox">D20</label>
+            <input type="number" value="0" id="D20" />
+          </p>
+
+          </div>
+          <button onclick="roll()">Roll Dice</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
